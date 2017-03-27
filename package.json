@@ -1,0 +1,21 @@
+{
+  "name": "ap-cli",
+  "version": "0.0.3",
+  "license": "MIT",
+  "author": {
+    "name": "APRxFE",
+    "email": "aprxfe@gmail.com"
+  },
+  "scripts": {
+    "start": "node ./bin/ap.js"
+  },
+  "bin": {
+    "ap": "bin/ap.js"
+  },
+  "preferClobal": true,
+  "dependencies": {
+    "colors": "^1.1.2",
+    "exec-cmd": "^2.0.1",
+    "rxjs": "^5.2.0"
+  }
+}
